@@ -33,7 +33,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import nxTopLock from '@/components/nx-top-lock'
 import nxBreadcrumb from '@/components/nx-breadcrumb'
 import nxHamburger from '@/components/nx-hamburger'
 import nxFullScreen from '@/components/nx-full-screen/index'
@@ -44,8 +43,7 @@ export default {
     nxBreadcrumb,
     nxHamburger,
     nxFullScreen,
-    nxLangSelect,
-    nxTopLock
+    nxLangSelect
   },
   computed: {
     ...mapGetters(['sidebar', 'name', 'avatar'])
